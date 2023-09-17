@@ -1,0 +1,15 @@
+.h-90{
+    height: 90%;
+}
+
+.h-86{
+    height: 83% !important;
+}
+
+.bc-red{
+    border: 1px dotted red;
+}
+
+.bc-blue{
+    border: 1px dotted blue;
+}
