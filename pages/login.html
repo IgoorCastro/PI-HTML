@@ -7,13 +7,13 @@
     <link rel="stylesheet" href="../assets/css/login.css">
     <title>Go Student</title>
 </head>
-<body class="h-screen flex flex-col items-center justify-top lg:justify-center">
-    <main class="flex flex-col lg:bg-gray-50 mt-5 lg:mt-0 w-full">
+<body class="h-screen flex flex-col items-center justify-center">
+    <main class="flex flex-col mt-5 lg:mt-0 w-full">
         <!-- LOGIN -->
         <section class="flex flex-col items-center justify-center w-full py-12 mb-8 shadow-md hidden sm:block">
             <div class="h-min">
                 <div class="w-full">
-                    <h3 class="text-4xl font-medium text-center">Login GoStudant</h3>
+                    <h3 class="text-4xl font-medium text-center">Login GoStudent</h3>
                 </div>
             </div>
         </section>
@@ -31,12 +31,12 @@
                     <form class="w-full">
                         <div class="flex items-center mb-6">
                           <div class="w-full">
-                            <input class="appearance-none border-2 border-red-500 w-full py-2 px-4 text-black-500 leading-tight focus:outline-none focus:bg-white focus:border-red-400" id="inline-full-name" type="email" placeholder="E-mail">
+                            <input class="appearance-none border-2 border-red-500 w-full py-2 px-4 text-black-500 leading-tight focus:outline-none focus:bg-white focus:border-red-400" id="input-email" type="email" placeholder="E-mail">
                           </div>
                         </div>
                         <div class="flex items-center mb-6">
                           <div class="w-full">
-                            <input class="appearance-none border-2 border-red-500 w-full py-2 px-4 text-black-500 leading-tight focus:outline-none focus:bg-white focus:border-red-400" id="inline-password" type="password" placeholder="******************">
+                            <input class="appearance-none border-2 border-red-500 w-full py-2 px-4 text-black-500 leading-tight focus:outline-none focus:bg-white focus:border-red-400" id="input-password" type="password" placeholder="******************">
                           </div>
                         </div>
                         <!-- <div class="flex items-center mb-6">
@@ -48,10 +48,15 @@
                             </span>
                           </label>
                         </div> -->
-                        <div class="flex items-center justify-center">
+                        <div class="flex flex-col items-center justify-center">
                           <div class="w-full">
-                            <button class="shadow bg-red-500 hover:bg-red-400 focus:shadow-outline focus:outline-none text-white font-bold py-4 lg:py-2 w-full rounded" type="button">
+                            <button id="btn-entrar" class="shadow bg-red-500 hover:bg-red-400 focus:shadow-outline focus:outline-none text-white font-bold py-4 lg:py-2 w-full rounded" type="button">
                               ENTRAR
+                            </button>
+                          </div>
+                          <div class="w-full mt-3">
+                            <button id="btn-cadastrar" class="shadow bg-red-500 hover:bg-red-400 focus:shadow-outline focus:outline-none text-white font-bold py-4 lg:py-2 w-full rounded" type="button">
+                              CADASTRAR
                             </button>
                           </div>
                         </div>
@@ -60,5 +65,7 @@
             </div>
         </section>
     </main>
+
+    <script src="../assets/javascript/login.js"></script>
 </body>
 </html>
