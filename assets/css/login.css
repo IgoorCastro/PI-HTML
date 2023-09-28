@@ -15,7 +15,7 @@ body{
     border: 1px dotted red;
 }
 
-@media (min-width: 720px) {
+@media (min-width: 768px) {
     main{
         width: 50% !important;
         height: 34rem !important;
