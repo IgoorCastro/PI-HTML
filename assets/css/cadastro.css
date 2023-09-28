@@ -3,7 +3,7 @@ body{
     padding: 0;
 }
 
-.login-content {
+.cadastro-content {
     width: 95% !important;
     display: flex;
     flex-direction: column;
