@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../assets/css/login.css">
+    <title>Go Student</title>
+</head>
+<body class="h-screen flex flex-col items-center justify-top lg:justify-center">
+    <main class="flex flex-col lg:bg-gray-50 mt-5 lg:mt-0 w-full">
+        <!-- LOGIN -->
+        <section class="flex flex-col items-center justify-center w-full py-12 mb-8 shadow-md hidden sm:block">
+            <div class="h-min">
+                <div class="w-full">
+                    <h3 class="text-4xl font-medium text-center">Login GoStudant</h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="flex flex-col items-center justify-top h-full w-full">
+            <!-- LOGIN -->
+            <div class="h-min login-content w-full">
+                <div class="w-full">
+                    <div class="mb-5">
+                        <h3 class="text-4xl ont-medium">Entrar</h3>
+                    </div>
+                </div>
+    
+                <div class="w-full">
+                    <form class="w-full">
+                        <div class="flex items-center mb-6">
+                          <div class="w-full">
+                            <input class="appearance-none border-2 border-red-500 w-full py-2 px-4 text-black-500 leading-tight focus:outline-none focus:bg-white focus:border-red-400" id="inline-full-name" type="email" placeholder="E-mail">
+                          </div>
+                        </div>
+                        <div class="flex items-center mb-6">
+                          <div class="w-full">
+                            <input class="appearance-none border-2 border-red-500 w-full py-2 px-4 text-black-500 leading-tight focus:outline-none focus:bg-white focus:border-red-400" id="inline-password" type="password" placeholder="******************">
+                          </div>
+                        </div>
+                        <!-- <div class="flex items-center mb-6">
+                          <div class="w-max"></div>
+                          <label class="w-max block text-gray-500 font-bold">
+                            <input class="mr-2 leading-tight" type="checkbox">
+                            <span class="text-sm">
+                              Remember-me
+                            </span>
+                          </label>
+                        </div> -->
+                        <div class="flex items-center justify-center">
+                          <div class="w-full">
+                            <button class="shadow bg-red-500 hover:bg-red-400 focus:shadow-outline focus:outline-none text-white font-bold py-4 lg:py-2 w-full rounded" type="button">
+                              ENTRAR
+                            </button>
+                          </div>
+                        </div>
+                      </form>    
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
