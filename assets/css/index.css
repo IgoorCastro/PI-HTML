@@ -1,6 +1,6 @@
-main{
-    min-width: 50% !important;
-    min-height: 34rem !important;
+#start-content{
+    width: 50%;
+    height: 90%;
     box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.24);
 }
 
@@ -27,12 +27,4 @@ h4{
 
 .bc-blue{
     border: 1px dotted blue;
-}
-
-@media (min-width: 768px) {
-    main{
-        width: 50% !important;
-        height: 34rem !important;
-        box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.24);
-    }
 }

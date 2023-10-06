@@ -7,27 +7,24 @@
     <link rel="stylesheet" href="../assets/css/login.css">
     <title>Go Student</title>
 </head>
-<body class="h-screen flex flex-col items-center justify-center">
-    <main class="flex flex-col w-full">
+<body class="h-screen">
+    <main class="h-full w-full flex flex-col sm:justify-center items-center">
+      <div id="login-content" class="flex flex-col">
         <!-- LOGIN -->
-        <section class="flex flex-col items-center justify-center w-full py-12 shadow-md hidden sm:block">
-            <div class="h-min">
-                <div class="w-full">
-                    <h3 class="text-4xl font-medium text-center">Login GoStudent</h3>
-                </div>
-            </div>
+        <section class="flex flex-row items-center justify-center w-full py-12 shadow-md hidden sm:block">
+          <div class="h-min w-full">
+                  <h3 class="text-4xl font-medium text-center">Login GoStudent</h3>
+          </div>
         </section>
 
-        <section class="flex flex-col items-center justify-top h-full w-full">
+        <section class="h-full w-full flex flex-col items-center py-4 px-5">
             <!-- LOGIN -->
-            <div class="h-min login-content w-full">
-                <div class="w-full">
-                    <div class="mb-5">
-                        <h3 class="text-4xl font-medium">Entrar</h3>
-                    </div>
+            <div class="h-full flex flex-col items-center justify-top w-full">
+                <div class="w-full mb-5">
+                  <h3 class="text-4xl font-medium">Entrar</h3>
                 </div>
     
-                <div class="w-full">
+                <div id="form-login" class="w-full">
                     <form class="w-full">
                         <div class="flex items-center mb-6">
                           <div class="w-full">
@@ -47,24 +44,27 @@
                               Remember-me
                             </span>
                           </label>
-                        </div> -->
-                        <div class="flex flex-col items-center justify-center">
-                          <div class="w-full">
-                            <button id="btn-entrar" class="shadow bg-red-500 hover:bg-red-400 focus:shadow-outline focus:outline-none text-white font-bold py-4 lg:py-2 w-full rounded" type="button">
-                              ENTRAR
-                            </button>
-                          </div>
-                          <div class="w-full mt-3">
-                            <button id="btn-cadastrar" class="shadow bg-red-500 hover:bg-red-400 focus:shadow-outline focus:outline-none text-white font-bold py-4 lg:py-2 w-full rounded" type="button">
-                              CADASTRAR
-                            </button>
-                          </div>
-                        </div>
-                      </form>    
+                        </div> -->                        
+                      </form>  
+                </div>
+                <!-- Content Buttons-->
+                <div class="w-full flex flex-col items-center justify-center">
+                  <div class="w-full">
+                    <button id="btn-entrar" class="shadow bg-red-500 hover:bg-red-400 focus:shadow-outline focus:outline-none text-white font-bold py-4 lg:py-2 w-full rounded" type="button">
+                      ENTRAR
+                    </button>
+                  </div>
+                  <div class="w-full mt-3">
+                    <button id="btn-cadastrar" class="shadow bg-red-500 hover:bg-red-400 focus:shadow-outline focus:outline-none text-white font-bold py-4 lg:py-2 w-full rounded" type="button">
+                      CADASTRAR
+                    </button>
+                  </div>
                 </div>
             </div>
         </section>
+      </div>
     </main>
+
 
     <script src="../assets/javascript/login.js"></script>
 </body>
