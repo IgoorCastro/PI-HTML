@@ -12,7 +12,14 @@ function cadastro_test(){
     let user_repassword = document.getElementById("input-repassword").value;
     let ckb_terms = document.getElementById("ckb-termos");
 
-    if(user_nome === '' && user_email === '' && user_password === '' && user_repassword === '')
+    // - LOG CADASTRO -
+    /*console.log("- LOG CADASTRO -    \nuser_nome: " + user_nome + 
+                                    "\nuser_email: " + user_email +
+                                    "\nuser_password: " + user_password +
+                                    "\nuser_repassword: " + user_repassword +
+                                    "\ncbk_terms: " + ckb_terms.checked);*/
+
+    if(user_nome === '' || user_email === '' || user_password === '' || user_repassword === '')
         alert("Preencha todos os campos");
 
     if(!(ckb_terms.checked))

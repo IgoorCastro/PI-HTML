@@ -7,24 +7,27 @@
     <link rel="stylesheet" href="assets/css/index.css">
     <title>Go Student</title>
 </head>
-<body class="h-screen flex flex-col justify-center items-center">
-    <main class="h-full w-full flex flex-col">
-        <!-- Logo -->
-        <div class="h-90 lg:h-5/6 w-full lg:w-6/12 lg:m-auto lg:rounded-md flex flex-col 
-        items-center justify-center bg-gradient-to-tr from-pink-500 via-red-500 to-yellow-500 lg:bg-gradient-to-tr lg:from-white lg:via-white lg:to-white">
-            <div class="">
-                <h4 class="text-5xl font-semibold">GoStudent</h4>
+<body class="h-screen">
+    <main class="h-full w-full flex flex-col justify-center items-center">
+       <div id="start-content" class="h-90 flex flex-col">
+            <!-- Logo -->
+            <div class="h-90 lg:h-5/6 w-full lg:w-6/12 lg:m-auto lg:rounded-md flex flex-col 
+            items-center justify-center bg-gradient-to-bl from-red-200 to-red-600 lg:bg-gradient-to-tr lg:from-white lg:via-white lg:to-white">
+                <div class="">          
+                    <h4 class="text-5xl font-semibold">GoStudent</h4>
+                </div>
             </div>
-        </div>
-        <div class="flex-grow flex-shrink-0 flex flex-col items-center justify-center">
-            <a href="pages/login.html" class="relative inline-flex items-center justify-center p-4 px-12 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out border-2 border-pink-500 rounded-md shadow-md group">
-                <span class="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-pink-500 group-hover:translate-x-0 ease">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
-                </span>
-                <span class="absolute flex items-center justify-center w-full h-full text-pink-500 transition-all duration-300 transform group-hover:translate-x-full ease">ENTRAR</span>
-                <span class="relative invisible">ENTRAR</span>
-            </a>
-        </div>
+            <div class="flex-grow flex flex-col items-center justify-center">
+                <a href="pages/login.html" class="relative inline-flex items-center justify-center m-4 p-4 px-12 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out border-2 border-red-500 rounded-md shadow-md group">
+                    <span class="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-gradient-to-bl from-red-400 to-red-600 group-hover:translate-x-0 ease">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                    </span>
+                    <span class="absolute flex items-center justify-center w-full h-full text-red-500 transition-all duration-300 transform group-hover:translate-x-full ease">ENTRAR</span>
+                    <span class="relative invisible">ENTRAR</span>
+                </a>
+            </div>
+       </div>
+        
     </main>
 </body>
 </html>

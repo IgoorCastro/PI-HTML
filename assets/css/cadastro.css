@@ -3,29 +3,31 @@ body{
     padding: 0;
 }
 
-.cadastro-content {
-    width: 95% !important;
+#cadastro-content {
+    width: 90%;
+    height: max-content;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; /* Corrigi 'justify-items' para 'justify-content' */
+    justify-content: top; /* Corrigi 'justify-items' para 'justify-content' */
 }
 
 .bc-red{
     border: 1px dotted red;
 }
 
+.bc-blue{
+    border: 1px dotted blue;
+}
+
 @media (min-width: 768px) {
-    main{
-        width: 50% !important;
-        height: 37rem !important;
-        box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.24);
-    }
-    .cadastro-content {
-        width: 55% !important;
+    #cadastro-content {
+        width: 55%;
+        height: max-content;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center; /* Corrigi 'justify-items' para 'justify-content' */
+        justify-content: top; /* Corrigi 'justify-items' para 'justify-content' */
+        box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.24);
     }
 }
